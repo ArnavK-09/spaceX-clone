@@ -189,8 +189,8 @@ footer ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-
+    column-gap: 40px;
+    flex-wrap: wrap;
 }
 footer ul li a{
     font-size: 12px;
